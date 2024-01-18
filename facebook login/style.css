@@ -1,0 +1,81 @@
+body {
+  background-color: #f2f4f7;
+}
+.logo_content {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.image img {
+  width: 200px;
+  height: 90px;
+}
+.content p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  position: relative;
+  top: 25%;
+  right: 57%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  background: #ffff;
+  padding: 30px 30px;
+  width: 300px;
+  height: 270px;
+  border-radius: 7px;
+  margin-top: -40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+form input {
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border: 1px solid #1877f2;
+}
+form .login {
+  background-color: #1877f2;
+  padding: 12px 2px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  outline: none;
+}
+form .login:hover {
+  background: #0f71f1;
+  cursor: pointer;
+}
+form a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 5%;
+  color: #1877f2;
+}
+form hr {
+  background-color: black;
+  margin: 1rem;
+}
+form .create_acc {
+  background-color: #06b909;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: medium;
+  margin: 0 auto;
+  color: white;
+  width: 80%;
+}
+form .create_acc:hover {
+  background-color: #03ad06;
+  cursor: pointer;
+}
+footer {
+  position: absolute;
+  top: 73%;
+  left: 58%;
+}

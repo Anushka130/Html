@@ -1,0 +1,24 @@
+.container {
+  background-color: brown;
+}
+.container2 {
+  background-color: red;
+}
+.container div,
+.container2 div {
+  width: 70px;
+  height: 50px;
+  margin: 15px;
+}
+.div1 {
+  background-color: aqua;
+}
+.div2 {
+  background-color: bisque;
+}
+.div3 {
+  background-color: blueviolet;
+}
+.div4 {
+  background-color: aquamarine;
+}
